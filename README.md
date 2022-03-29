@@ -22,5 +22,19 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 Please make sure to update tests as appropriate.
 
+## Cite
+Consider citing us if you find our work useful
+
+```
+@unpublished{
+  larionov_kiseleva_kazakova_kudrinski_cherepanova,
+  place={Higher School of Economics, Moscow, Russia},
+  title={Named Entity Recognition in Dialogues},
+  url={https://docs.google.com/document/d/1tviLZe8XKdRGKkOdNS-1I7oPt3okD6VPAHB1Cz94nx8/edit},
+  journal={Google Docs},
+  author={Larionov, Danil and Kiseleva, Natalia and Kazakova, Liliya and Kudrinski, Maxime and Cherepanova, Olga}
+} 
+```
+
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
