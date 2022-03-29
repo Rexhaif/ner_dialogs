@@ -1,6 +1,4 @@
 # NER Dialogues
-HSE Project for NER in Dialogue Messages
-
 The NER Dialogues project was created to train a chatbot to extract named entities from user queries. The developed model can extract book titles, movie titles, names of singers and composers, and song titles from short queries in Russian.
 
 ## Contributing
