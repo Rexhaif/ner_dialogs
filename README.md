@@ -1,5 +1,9 @@
 # NER Dialogues
 The NER Dialogues project was created to train a chatbot to extract named entities from user queries. The developed model can extract book titles, movie titles, names of singers and composers, and song titles from short queries in Russian.
+
+### Research Basis
+
+See paper [here](https://docs.google.com/document/d/1tviLZe8XKdRGKkOdNS-1I7oPt3okD6VPAHB1Cz94nx8/edit).
 ## How to use
 
 ```python
