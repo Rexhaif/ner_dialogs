@@ -9,6 +9,14 @@ import logging
 class ApiClient:
 
     def process_text(self, text: str) -> Union[Dict[str, Any], None]:
+        """
+        Calls API to process given text
+        
+        Keyword Arguments:
+        text -- text to process with api
+        
+        returns: Dictionary with process result, each additional data has its own key
+        """
         raise NotImplementedError()
 
 
