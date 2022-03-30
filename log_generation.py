@@ -1,4 +1,9 @@
 import random
+
+"""
+Interactive tool to generate synthetic training data from provided dictionaries
+"""
+
 a = input("Кол-во записей:")
 logs = open('log.txt', 'a', encoding='UTF8')
 list2 = []
