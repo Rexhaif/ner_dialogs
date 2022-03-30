@@ -12,16 +12,41 @@ import settings
 
 class WikiModel:
     def retrieve(self, ner_model_output: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+        """
+        Retrieves data from Wikipedia API
+        
+        Keyword Arguments:
+        ner_model_output: Output of ner model in huggingface pipelines's format(a list of found entities with their indexes)
+        
+        returns: List of recognised wikipedia entities
+        """
         raise NotImplementedError()
 
 
 class NerToHtmlModel:
     def transform(self, text: str, ner_model_output: List[Dict[str, Any]]) -> str:
+        """
+        Converts NER model output into html code with coloured tags
+        
+        Keyword Arguments:
+        text: analyzed text
+        ner_model_output: output of NER model in huggingface pipeline's format
+        
+        returns: html code
+        """
         raise NotImplementedError()
 
 
 class NerModel:
     def process(self, text: str) -> List[Dict[str, Any]]:
+        """
+        Wraps Huggingface pipeline for token classification
+        
+        Keyword Arguments:
+        text: text to be analyzed
+        
+        returns: ner output in hf pipeline format
+        """
         raise NotImplementedError()
 
 
@@ -69,6 +94,9 @@ class TransformersNerModel(NerModel):
 
 
 class SpacyNerToHtmlModel(NerToHtmlModel):
+    """
+    Based on Spacy's displacy module for visualization
+    """
     def __init__(self):
         super(SpacyNerToHtmlModel, self).__init__()
         self.options = settings.spacy_colors
