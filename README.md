@@ -4,6 +4,9 @@ The NER Dialogues project was created to train a chatbot to extract named entiti
 ### Research Basis
 
 See paper [here](https://docs.google.com/document/d/1tviLZe8XKdRGKkOdNS-1I7oPt3okD6VPAHB1Cz94nx8/edit).
+
+## Data
+Data release is pending approval. In the meantime - check out our data description: [link](https://github.com/Rexhaif/ner_dialogs/blob/master/Данные.txt).
 ## How to use
 Model can be downloaded [here](https://file2directlink.herokuapp.com/1936465405881734442935168/AgADkgwA/final-model.pt).
 ```python
