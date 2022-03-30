@@ -5,6 +5,9 @@ from model import ApiClientWikiModel, SpacyNerToHtmlModel, TransformersNerModel
 
 
 class EntityLinkingController:
+    """
+    Wraps Wikipedia API, html conversion and model inference into single api
+    """
     def __init__(self):
         self.ner = TransformersNerModel()
         self.to_html = SpacyNerToHtmlModel()
