@@ -14,9 +14,12 @@ def index():
 
 @app.route("/", methods=["POST"])
 def form_submit():
+    """
+    Main endpoint, that processes form input
+    """
     text = request.form["input_text"]
     result = client.process_text(text)
-    if result is not None:
+    if result is not None: # try to call api
         return render_template(
             "index.html.j2",
             display='ok',
