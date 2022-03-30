@@ -5,7 +5,7 @@ The NER Dialogues project was created to train a chatbot to extract named entiti
 
 See paper [here](https://docs.google.com/document/d/1tviLZe8XKdRGKkOdNS-1I7oPt3okD6VPAHB1Cz94nx8/edit).
 ## How to use
-
+Model can be downloaded [here](https://file2directlink.herokuapp.com/1936465405881734442935168/AgADkgwA/final-model.pt).
 ```python
 from flair.models import SequenceTagger
 from flair.data import Sentence
