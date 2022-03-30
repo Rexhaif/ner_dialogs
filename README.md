@@ -20,6 +20,8 @@ model.predict(example)
 
 print(example.to_tagged_string())
 ```
+## Web Demo
+Demo to be deployed soonly. You can do that yourself on any Linux-based Server with docker & docker-compose installed. For detailed instructions, see demo's [README.md](https://github.com/Rexhaif/ner_dialogs/blob/master/demo/README.md).
 
 ## Authors
 We are students at HSE masters program "Computational Linguistics":
