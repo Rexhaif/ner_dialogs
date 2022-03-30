@@ -17,6 +17,12 @@ model.predict(example)
 
 print(example.to_tagged_string())
 ```
+
+## Authors
+We are students at HSE masters program "Computational Linguistics":
+- Nata Kiseleva
+- Daniil Larionov (corresponding author: dslarionov@edu.hse.ru)
+- Liliya Kazakova
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
